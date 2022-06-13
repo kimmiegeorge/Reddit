@@ -11,3 +11,9 @@ Compute bot-generated stats - time in WSB, # pasts comments and posts, avg score
 
 #### TickerMentions 
 Pulls ticker mentions from post titles and text. Later was hand checked and collected 
+
+#### CreateReturnMeasures.R
+Uses CRSP to compute for each ticker, CAR over next 3 months, next 5 days, and next day 
+
+#### DDPost_Consistency
+Computes sentiment of dd posts, merges with return measures computed with the above
